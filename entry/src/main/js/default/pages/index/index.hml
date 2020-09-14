@@ -1,7 +1,5 @@
 <div class="container">
-    <text class="title">
-        Hello {{title}}
-    </text>
-    <input type="button"  value="点我" onclick="clickAction">
+    <image src="/common/msw.png" class="img"></image>
+    <input type="button" class="btn"  value="点我" onclick="clickAction">
     </input>
 </div>

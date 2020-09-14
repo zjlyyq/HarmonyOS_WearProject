@@ -16,3 +16,12 @@
     height: 100px;
     font-family: HYQiHei-65S;
 }
+.img {
+    width:208px;
+    height:208px;
+}
+.btn {
+    width: 150px;
+    margin-top: 30px;
+    height: 40px
+}
