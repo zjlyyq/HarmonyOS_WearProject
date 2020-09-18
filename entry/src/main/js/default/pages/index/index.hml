@@ -1,5 +1,11 @@
 <div class="container">
-    <image src="/common/msw.png" class="img"></image>
+    <div class="row">
+        <picker-view class="pv1" range="{{range1}}" selected="1" onchange="onChangeAction1" />
+        <text class="txt">分</text>
+        <image src="/common/icon.png" class="img"></image>
+        <picker-view class="pv2" range="{{range2}}" selected="1" onchange="onChangeAction2" />
+    </div>
+
     <input type="button" class="btn"  value="点我" onclick="clickAction">
     </input>
 </div>

@@ -7,21 +7,45 @@
     top: 0px;
     width: 454px;
     height: 454px;
-    background-color: gray;
+/*    background-color: gray;*/
 }
-.title {
-    font-size: 30px;
-    text-align: center;
-/*    width: ;*/
-    height: 100px;
-    font-family: HYQiHei-65S;
-}
+
 .img {
     width:208px;
     height:208px;
+    text-align: center;
+/*    border-radius: 50%;*/
 }
 .btn {
     width: 150px;
     margin-top: 30px;
-    height: 40px
+    height: 40px;
+    background-color: pink;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+/*    color: white;*/
+    width: 454px;
+    height: 250px;
+/*    background-color: gray;*/
+    font-size: 20px;
+}
+.pv1 {
+    width: 30px;
+    height: 250px;
+    margin: 20px;
+}
+.pv2 {
+    width: 80px;
+    height: 250px;
+    margin: 20px;
+}
+.txt {
+    width: 50px;
+    font-size: 20px;
+    text-align: center;
 }
