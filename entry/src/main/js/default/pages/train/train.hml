@@ -1,7 +1,10 @@
 <div class="container">
-    <text class="title">
-        训练页面
+    <text class="txt1" show="{{isShow}}">
+        {{huxi}}({{percent}}%)
     </text>
-    <input type="button"  value="返回" onclick="clickAction">
+    <text class="txt2" show="{{isShow}}">
+        总共需要坚持{{total}}秒
+    </text>
+    <input type="button"  value="点击重新开始" onclick="clickAction" class="btn">
     </input>
 </div>

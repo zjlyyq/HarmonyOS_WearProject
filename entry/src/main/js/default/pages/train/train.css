@@ -9,10 +9,22 @@
     height: 454px;
     background-color: gray;
 }
-.title {
+.txt1 {
+    font-size: 38px;
+    text-align: center;
+    height: 60px;
+    font-family: HYQiHei-65S;
+}
+.txt2 {
     font-size: 30px;
     text-align: center;
-/*    width: ;*/
-    height: 100px;
+    height: 60px;
     font-family: HYQiHei-65S;
+}
+.btn {
+    font-size: 38px;
+    width: 300px;
+    background-color: gray;
+    height: 60px;
+    border-width: 0px;
 }

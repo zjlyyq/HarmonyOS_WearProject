@@ -6,6 +6,6 @@
         <picker-view class="pv2" range="{{range2}}" selected="1" onchange="onChangeAction2" />
     </div>
 
-    <input type="button" class="btn"  value="点我" onclick="clickAction">
+    <input type="button" class="btn"  value="点击开始" onclick="clickAction">
     </input>
 </div>
